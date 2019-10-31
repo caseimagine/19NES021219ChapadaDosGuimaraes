@@ -8,6 +8,8 @@
 
 <p><span translate="Profile.MandatoryFields"></span></p>
 
+
+
 <form name="userForm" ng-submit="submitForm(userForm.$valid)" ng-if="titular">
     <fieldset ng-repeat="atribuido in formulario.lists['Campos definidos'] | groupBy:'atribuicao'" ng-disabled="disableFields()">
 
@@ -32,12 +34,14 @@
                 <small> <em>{{campo.customPlaceholder | iif : campo.customPlaceholder : campo.placeholder}}</em></small>
             </label>
 
+            <!-- TitularPassaporte.Numero (text) / TitularPassaporte.Emissao (date-string) / TitularPassaporte.Validade (date-string) -->
+
             <!-- campos de texto / tel -->
 
-            <input ng-if="(campo.type === 'text' && campo.colmaSeparatedOptions === null ) || (campo.type === 'tel') || (campo.type === 'number')"
+            <input ng-if="(campo.type === 'text' && campo.colmaSeparatedOptions === null ) || (campo.type === 'tel') ||  (campo.type === 'number') "
                 type="{{campo.type}}" id="{{atribuido[0].atribuicao + campo.key}}" name="{{atribuido[0].atribuicao + campo.key}}"
                 class="form-control" maxlength="{{campo.tamanhoMaximo}}" minlength="{{campo.tamanhoMinimo}}"
-                placeholder="" ui-mask="{{campo.mascara}}" ng-required="campo.obrigatorio" ng-model="campo.value">
+                placeholder="" ui-mask="{{campo.mascara}}" ng-required="campo.obrigatorio" ng-model="campo.value" ng-change="changeValue((atribuido[0].atribuicao + campo.key), campo.value)">
 
             <!-- email (lowercase) -->
 
@@ -50,7 +54,7 @@
 
             <select ng-if="(campo.type === 'select') || (campo.type === 'text' && campo.colmaSeparatedOptions !== null)"
                 class="form-control" name="{{atribuido[0].atribuicao + campo.key}}" id="{{atribuido[0].atribuicao + campo.key}}"
-                ng-model="campo.value" ng-options="option.value as option.name for option in campo.options" ng-required="campo.obrigatorio">
+                ng-model="campo.value" ng-options="option.value as option.name for option in campo.options" ng-required="campo.obrigatorio" ng-change="changeValue((atribuido[0].atribuicao + campo.key), campo.value)">
             </select>
 
             <!-- campos de radio -->
@@ -91,6 +95,7 @@
                     ng-required="campo.obrigatorio" 
                     is-open="campo.opened"  
                     show-button-bar="false"
+                    ng-change="changeValue((atribuido[0].atribuicao + campo.key), campo.value)"
                 />
                 <span class="input-group-btn">
                     <button type="button" class="btn btn-default" ng-click="abreCalendario(campo)"><i

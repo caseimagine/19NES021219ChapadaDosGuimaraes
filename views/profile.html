@@ -1,10 +1,18 @@
 <h2 translate="Perfil"></h2>
 
+<div ng-if="currentLocaleDisplayName === 'es-ES'" class="alert alert-danger">
+    <div class="alert-icon">
+        <i class="material-icons">error_outline</i>
+    </div>
+    <p><strong>Información importante: <br>Es obligatorio presentar el Certificado Internacional de Vacunación contra la Fiebre Amarilla para su viaje a Brasil. Le recomendamos que tome la vacuna contra el Sarampión.</strong></p>
+</div>
+
 <p>{{titular.Nome}},
     <span translate>seja bem-vindo(a)!</span>
 </p>
 
-<p>O prazo limite é dia {{grupo.deadlineInscricao}}.</p>
+
+<p><span translate>O prazo limite é dia</span> {{grupo.deadlineInscricao}}.</p>
 
 <p><span translate="Profile.MandatoryFields"></span></p>
 

@@ -46,7 +46,7 @@
 
             <!-- campos de texto / tel -->
 
-            <input ng-if="(campo.type === 'text' && campo.colmaSeparatedOptions === null ) || (campo.type === 'tel') ||  (campo.type === 'number') "
+            <input ng-if="(campo.type === 'text' && campo.colmaSeparatedOptions.length === 0 ) || (campo.type === 'tel') ||  (campo.type === 'number') "
                 type="{{campo.type}}" id="{{atribuido[0].atribuicao + campo.key}}" name="{{atribuido[0].atribuicao + campo.key}}"
                 class="form-control" maxlength="{{campo.tamanhoMaximo}}" minlength="{{campo.tamanhoMinimo}}"
                 placeholder="" ui-mask="{{campo.mascara}}" ng-required="campo.obrigatorio" ng-model="campo.value" ng-change="changeValue((atribuido[0].atribuicao + campo.key), campo.value)">
@@ -60,7 +60,7 @@
 
             <!-- campos de select -->
 
-            <select ng-if="(campo.type === 'select') || (campo.type === 'text' && campo.colmaSeparatedOptions !== null)"
+            <select ng-if="(campo.type === 'select') || (campo.type === 'text' && (campo.colmaSeparatedOptions.length > 0))"
                 class="form-control" name="{{atribuido[0].atribuicao + campo.key}}" id="{{atribuido[0].atribuicao + campo.key}}"
                 ng-model="campo.value" ng-options="option.value as option.name for option in campo.options" ng-required="campo.obrigatorio" ng-change="changeValue((atribuido[0].atribuicao + campo.key), campo.value)">
             </select>

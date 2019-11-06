@@ -16,8 +16,6 @@
 
 <p><span translate="Profile.MandatoryFields"></span></p>
 
-
-
 <form name="userForm" ng-submit="submitForm(userForm.$valid)" ng-if="titular">
     <fieldset ng-repeat="atribuido in formulario.lists['Campos definidos'] | groupBy:'atribuicao'" ng-disabled="disableFields()">
 
@@ -26,7 +24,7 @@
             <div class="togglebutton" ng-if="atribuido[0].atribuicao === 'Acompanhante'">
                 <label>
                     <span translate>Irá levar acompanhante</span>?
-                    <input type="checkbox" checked="" ng-model="titular.Wave" ng-false-value="0" ng-true-value="1">
+                    <input ng-attr-type="checkbox" checked="" ng-model="titular.Wave" ng-false-value="0" ng-true-value="1">
                 </label>
             </div>
         </h3>
@@ -47,16 +45,16 @@
             <!-- campos de texto / tel -->
 
             <input ng-if="(campo.type === 'text' && (campo.colmaSeparatedOptions === null || campo.colmaSeparatedOptions === '') ) || (campo.type === 'tel') ||  (campo.type === 'number') "
-                type="{{campo.type}}" id="{{atribuido[0].atribuicao + campo.key}}" name="{{atribuido[0].atribuicao + campo.key}}"
+                ng-attr-type="{{campo.type}}" id="{{atribuido[0].atribuicao + campo.key}}" name="{{atribuido[0].atribuicao + campo.key}}"
                 class="form-control" maxlength="{{campo.tamanhoMaximo}}" minlength="{{campo.tamanhoMinimo}}"
-                placeholder="" ui-mask="{{campo.mascara}}" ng-required="campo.obrigatorio" ng-model="campo.value" ng-change="changeValue((atribuido[0].atribuicao + campo.key), campo.value)">
+                ng-attr-placeholder="" ui-mask="{{campo.mascara}}" ng-required="campo.obrigatorio" ng-model="campo.value" ng-change="changeValue((atribuido[0].atribuicao + campo.key), campo.value)">
 
             <!-- email (lowercase) -->
 
             <input ng-if="(campo.type === 'email')"
-            type="{{campo.type}}" id="{{atribuido[0].atribuicao + campo.key}}" name="{{atribuido[0].atribuicao + campo.key}}"
+            ng-attr-type="{{campo.type}}" id="{{atribuido[0].atribuicao + campo.key}}" name="{{atribuido[0].atribuicao + campo.key}}"
             class="form-control" maxlength="{{campo.tamanhoMaximo}}" minlength="{{campo.tamanhoMinimo}}"
-            placeholder="" ui-mask="{{campo.mascara}}" ng-required="campo.obrigatorio" ng-model="campo.value"  ng-keyup="campo.value = campo.value.toLowerCase();">
+            ng-attr-placeholder="" ui-mask="{{campo.mascara}}" ng-required="campo.obrigatorio" ng-model="campo.value"  ng-keyup="campo.value = campo.value.toLowerCase();">
 
             <!-- campos de select -->
 
@@ -70,7 +68,7 @@
 
             <div class="radio" ng-if="(campo.type === 'radio') || (campo.type === 'radio-inline') " ng-repeat="option in campo.options">
                 <label>
-                    <input type="radio" id="{{atribuido[0].atribuicao + campo.key}}" name="{{atribuido[0].atribuicao + campo.key}}"
+                    <input ng-attr-type="radio" id="{{atribuido[0].atribuicao + campo.key}}" name="{{atribuido[0].atribuicao + campo.key}}"
                         ng-model="campo.value" ng-value="option.value" ng-required="campo.obrigatorio"> {{option.name}}</label>
             </div>
 
@@ -78,14 +76,14 @@
 
             <div class="radio" ng-if="(campo.type === 'boolean')">
                 <label>
-                    <input type="radio" id="{{atribuido[0].atribuicao + campo.key}}" name="{{atribuido[0].atribuicao + campo.key}}"
+                    <input ng-attr-type="radio" id="{{atribuido[0].atribuicao + campo.key}}" name="{{atribuido[0].atribuicao + campo.key}}"
                         ng-model="campo.value" ng-value="false" ng-required="campo.obrigatorio"> {{'Não' | translate}}
                 </label>
             </div>
 
             <div class="radio" ng-if="(campo.type === 'boolean')">
                 <label>
-                    <input type="radio" id="{{atribuido[0].atribuicao + campo.key}}" name="{{atribuido[0].atribuicao + campo.key}}"
+                    <input ng-attr-type="radio" id="{{atribuido[0].atribuicao + campo.key}}" name="{{atribuido[0].atribuicao + campo.key}}"
                         ng-model="campo.value" ng-value="true" ng-required="campo.obrigatorio"> {{'Sim' | translate}}
                 </label>
             </div>
@@ -94,7 +92,7 @@
 
             <div class="input-group" ng-if="(campo.type === 'date-string')">
                 <input 
-                    type="text" 
+                    ng-attr-type="text" 
                     class="form-control" 
                     name="{{atribuido[0].atribuicao + campo.key}}"
                     id="{{atribuido[0].atribuicao + campo.key}}"
@@ -106,7 +104,7 @@
                     ng-change="changeValue((atribuido[0].atribuicao + campo.key), campo.value)"
                 />
                 <span class="input-group-btn">
-                    <button type="button" class="btn btn-default" ng-click="abreCalendario(campo)"><i
+                    <button ng-attr-type="button" class="btn btn-default" ng-click="abreCalendario(campo)"><i
                             class="glyphicon glyphicon-calendar"></i></button>
                 </span>
             </div>
@@ -127,7 +125,7 @@
         <br>
         Campos com erro se encontram marcados com um X
     </div>
-    <button type="submit" class="btn btn-primary" ng-disabled="submitting || userForm.$invalid" ng-show="canSubmit()"><span
+    <button ng-attr-type="submit" class="btn btn-primary" ng-disabled="submitting || userForm.$invalid" ng-show="canSubmit()"><span
             translate>Enviar</span></button>
 </form>
 

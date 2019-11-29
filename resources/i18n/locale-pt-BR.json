@@ -168,7 +168,7 @@
     "Nome do contato de emergência": "Nome do contato de emergência",
     "Telefone do contato de emergência": "Telefone do contato de emergência",
     "Celular do contato de emergência": "Celular do contato de emergência",
-    "Em caso de dúvidas entre em contato com": "Em caso de dúvidas, favor entrar em contato nos telefones e e-mail abaixo: <br><br> +55 11 3957-6598 – Erika (RSVP Portugues/Español) <br>+55 11 3957-6555 – Enzo (RSVP Portugues) <br><br>Email: <a href='mailto:rsvp@convencaonhsc.com'>rsvp@convencaonhsc.com</a>",
+    "Em caso de dúvidas entre em contato com": "Em caso de dúvidas, favor entrar em contato pelos telefones e e-mail abaixo: <br><br> +55 11 3957-6598 – Erika (RSVP Português/Español) <br>+55 11 3957-6555 – Enzo (RSVP Português) <br><br>E-mail: <a href='mailto:rsvp@convencaonhsc.com'>rsvp@convencaonhsc.com</a>",
     "Insira seu e-mail": "Insira seu e-mail",
     "Insira um e-mail válido": "Insira um e-mail válido",
 
@@ -223,7 +223,7 @@
 
     "Passeio": {
         "title": "Nosso destino também é gigante pela própria natureza.",
-        "content": "<p class=\"text-center\">Preparamos passeios incríveis para nos energizarmos durante a <strong>Convenção NHScLATAM!</strong> </p>    <p class=\"text-center\">Como as vagas para cada passeio são limitadas, e para que você tenha uma melhor experiência, contamos com você para fazer a sua escolha o quanto antes. </p> <p class=\"text-center\"><strong>Descubra em detalhes quais serão os roteiros e selecione os passeios por sua ordem de preferência!</strong></p>",
+        "content": "<p class=\"text-center\">Preparamos passeios incríveis para nos energizarmos durante a <strong>Convenção NHSc LATAM!</strong> </p>    <p class=\"text-center\">Como as vagas para cada passeio são limitadas, e para que você tenha uma melhor experiência, contamos com você para fazer a sua escolha o quanto antes. </p> <p class=\"text-center\"><strong>Descubra em detalhes quais serão os roteiros e selecione os passeios por sua ordem de preferência!</strong></p>",
         "definedPreferenceOrder": "Preferência de passeio definida",
         "warningUpdate": "Atenção: ao clicar em enviar a escolha não poderá mais ser alterada.",
         "duration": "Duração total do roteiro",

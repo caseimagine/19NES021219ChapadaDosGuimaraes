@@ -1,0 +1,130 @@
+<!-- padrao normal de container -->
+
+<!-- <div class="row" style="position: relative;">
+  <div class="col-xs-12 col-md-8 col-md-offset-2">
+
+  </div>
+</div> -->
+
+<!-- / padrao normal de container -->
+
+<div class="row" style="position: relative;" ng-if="reservasFeitas">
+  <div class="col-xs-12 col-md-8 col-md-offset-2">
+    <h1 class="text-center" translate="Passeio.alreadyChosen"></h1>
+  </div>
+</div>
+
+
+<div class="row" style="position: relative;" ng-if="!reservasFeitas">
+  <div class="col-xs-12 col-md-8 col-md-offset-2">
+    <h1 class="text-center" translate="Passeio.title"></h1>
+    <div translate="Passeio.content"></div>
+  </div>
+</div>
+
+
+<form name="userForm" ng-submit="submitForm(userForm.$valid)" ng-if="!reservasFeitas">
+
+  <div ng-repeat="passeio in passeioContent" style="margin-top: 50px;">
+    <div class="row" style="position: relative;">
+      <div class="col-xs-12 col-md-8 col-md-offset-2">
+        <h2>{{passeio.title}}</h2>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="img-fullwidth">
+      <ul data-carrossel='true' carrossel='true'>
+        <li ng-repeat="picture in passeio.pictures" data-thumb='{{picture}}'>
+          <img class='img-responsive' src='{{picture}}' alt='' />
+        </li>
+      </ul>
+    </div>
+
+    <br>
+
+    <div class="row" style="position: relative;">
+      <div class="col-xs-12 col-md-8 col-md-offset-2">
+        <p ng-bind-html="passeio.description"></p>
+        <div ng-repeat="highlight in passeio.highlights">
+          <h4>{{ highlight.title }}</h4>
+          <p ng-bind-html="highlight.description"></p>
+        </div>
+
+        <p><strong>{{'Passeio.duration' | translate}}:</strong> {{passeio.duration}}</p>
+
+        <p><strong>{{'Passeio.level' | translate}}:</strong> {{passeio.level}}</p>
+        <div class="radio radio-inline">
+          <div class="radio radio-inline" style="padding-top: 8px;">
+            <p><strong translate="Passeio.whatIsThePreference"></strong></p>
+          </div>
+          <div class="radio radio-inline">
+            <label>
+              <input type="radio" id="" name="opcao1" ng-model="escolha.prioridade1" ng-value="passeio.id"
+                ng-change="selecaoAlteradaTier(1, passeio.id)" ng-required="true">1<br>
+            </label>
+          </div>
+          <div class="radio radio-inline">
+            <label>
+              <input type="radio" id="" name="opcao2" ng-model="escolha.prioridade2" ng-value="passeio.id"
+                ng-change="selecaoAlteradaTier(2, passeio.id)" ng-required="true">2<br>
+            </label>
+          </div>
+          <div class="radio radio-inline">
+            <label>
+              <input type="radio" id="" name="opcao3" ng-model="escolha.prioridade3" ng-value="passeio.id"
+                ng-change="selecaoAlteradaTier(3, passeio.id)" ng-required="true">3<br>
+            </label>
+          </div>
+          <div class="radio radio-inline">
+            <label>
+              <input type="radio" id="" name="opcao4" ng-model="escolha.prioridade4" ng-value="passeio.id"
+                ng-change="selecaoAlteradaTier(4, passeio.id)" ng-required="true">4<br>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row" style="position: relative;">
+    <div class="col-xs-12 col-md-8 col-md-offset-2">
+      <h4 translate="Passeio.definedPreferenceOrder"></h4>
+      <ol>
+        <li translate="{{escolhaData.prioridade1.title}}"></li>
+        <li translate="{{escolhaData.prioridade2.title}}"></li>
+        <li translate="{{escolhaData.prioridade3.title}}"></li>
+        <li translate="{{escolhaData.prioridade4.title}}"></li>
+      </ol>
+    </div>
+    <div class="col-xs-12 col-md-8 col-md-offset-2">
+      <div class="alert alert-danger" ng-if="submitDisabled(userForm) == false">
+        <span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span>
+        <span translate="Passeio.warningUpdate"></span>
+      </div>
+      <button type="submit" class="btn btn-primary" ng-disabled="submitDisabled(userForm)"
+        translate="Enviar">Enviar</button>
+    </div>
+  </div>
+</form>
+
+<!-- <pre>
+  {{escolha | json}}
+</pre>
+
+<pre>
+  {{escolhaData | json}}
+</pre> -->
+
+<!-- <div ng-if="reservasFeitas">
+  <p><span translate="Passeio.alreadyDefined">JÁ DEFINIDO</span>:
+    <strong>{{reservasFeitas.CategoriaId | tipoDeQuarto: hoteis}}</strong></p>
+</div>
+
+<div ng-if="!temQuartosDisponiveis(hoteis)">
+  <p translate="Passeio.unavailable">SEM VAGAS</p>
+</div>
+
+<button
+  ng-if="!temQuartosDisponiveis(hoteis) || rootScopeUsuario.ContagemAcompanhantes > 0 || ehSingle(rootScopeUsuario.Order) || reservasFeitas"
+  class="btn btn-primary" ng-click="proximoPasso()">Próximo passo</button> -->

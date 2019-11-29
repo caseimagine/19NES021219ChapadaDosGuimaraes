@@ -189,6 +189,7 @@
 
     "Menu":{
         "Inscricao": "Registro",
+        "Passeios": "Recorrido",
         "Sair": "Salir"
     },
 
@@ -215,6 +216,23 @@
     "Sucesso": {
         "Obrigado": "Gracias!",
         "DadosSucesso": "¡Sus datos fueron recibidos con éxito!"
+    },
+
+    "Passeio": {
+        "title": "Nuestro destino también es gigante por propia naturaleza",
+        "content": "<p>!Hemos preparado atracciones  incre&iacute;bles para energizar la Convenci&oacute;n NHSc LATAM! <br /> Teniendo en cuenta que hay plazas limitadas  para cada recorrido y para que usted tenga la mejor experiencia, le sugerimos  que elija uno lo antes posible.</p><p><strong>&iexcl;Conozca en detalle los recorridos y  elija su favorito!</strong></p>",
+        "definedPreferenceOrder": "Conjunto de preferencias de recorridos",
+        "warningUpdate": "Tenga en cuenta: una vez que se elige el recorrido, no se permitirá realizar cambios",
+        "duration": "Duración total del recorrido",
+        "level": "Nivel de dificultad",
+        "departures": "Salidas disponibles",
+        "choose": "Elige tu recorrido",
+        "unavailable": "No hay más recorridos disponibles.",
+        "alreadyDefined": "Su recorrido ya ha sido configurado.",
+        "esgotado": "Vacantes Agotadas",
+        "notChosen": "No elegida",
+        "whatIsThePreference": "¿Cuál es su orden de preferencia para este recorrido?",
+        "alreadyChosen": "Su elección ha sido completada! ¡Descubrirás tu aventura en el evento!"
     },
 
     "LogoCampanha": "logo-campanha-esp.f6a35aef.svg",

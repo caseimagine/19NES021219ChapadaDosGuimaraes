@@ -1,0 +1,109 @@
+{
+    "passeios": [
+        {
+            "id": "1",
+            "title": "CHAPADA FASCINANTE",
+            "description": "Haremos un viaje de aproximadamente  una hora y media a la regi&oacute;n donde se encuentra el <strong><u>Parque Nacional da  Chapada dos Guimar&atilde;es</u></strong>. Este recorrido incluye el Mirador de la <strong><u>Cascada  V&eacute;u de Noiva</u></strong>, un sendero con paradas para ba&ntilde;arse en la cascada y un  almuerzo regional en el <strong><u>Mirador Morro dos Ventos.</u></strong><br><br>Regreso estimado al Malai: 17h00",
+            "highlights": [
+                {
+                    "title": "Parque Nacional da Chapada dos Guimarães",
+                    "description": "Con el alma de la sabana, este parque tiene enormes formaciones de arenisca, miradores con vistas a las llanuras de inundación y cascadas maravillosas."
+                },
+                {
+                    "title": "Cascada Véu de Noiva",
+                    "description": "La cascada Véu de Noiva, formada por el río Coxipó, tiene 86 metros de caída libre enmarcados por paredes de arenisca y es uno de los lugares turísticos más especiales de nuestro país."
+                },
+                {
+                    "title": "Mirador de Morro dos Ventos",
+                    "description": "Esta plataforma que sale de la pared parece flotar en un espacio de más de 150 metros de altura, desde donde se puede ver una cascada en la temporada de lluvias."
+                }
+            ],
+            "prefix": "CHAPADA FASCINANTE - ",
+            "duration": "8 horas",
+            "level": "intermedio",
+            "pictures": [
+                "images/passeios/chapada1.jpg",
+                "images/passeios/chapada2.jpg",
+                "images/passeios/chapada3.jpg",
+                "images/passeios/chapada4.jpg",
+                "images/passeios/chapada5.jpg",
+                "images/passeios/chapada6.jpg",
+                "images/passeios/chapada7.jpg"
+            ],
+            "slots": []
+        },
+        {
+            "id": "2",
+            "title": "ECOTUR RUTA ACUARIO ENCANTADO",
+            "description": "Haremos un viaje de cerca de una  hora hasta el destino. All&iacute; flotaremos en el <strong><u>Acuario Encantado</u></strong>, bajaremos por el <strong><u>R&iacute;o Salobra</u></strong> (900 metros de flotaci&oacute;n) y recorreremos un sendero de aproximadamente 400  metros. ",
+            "highlights": [
+                {
+                    "title": "Acuario Encantado ",
+                    "description": "Este recorrido le da la sensación de estar realmente en un acuario. Se hace en una piscina natural con seis metros de profundidad de aguas cristalinas que alberga rayas, dorados, piraputangas, piaus y otras especies."
+                },
+                {
+                    "title": "Río Salobra",
+                    "description": "Aguas cristalinas en medio del bosque nativo, donde se pueden observar manantiales, bancos de peces de las más variadas especies y divertidas familias de monos."
+                }
+            ],
+            "prefix": "AQUARIO ENCANTADO - ",
+            "duration": "4 horas",
+            "level": "básico",
+            "pictures": [
+                "images/passeios/aquario1.jpg",
+                "images/passeios/aquario2.jpg",
+                "images/passeios/aquario3.jpg",
+                "images/passeios/aquario4.jpg"
+            ],
+            "slots": []
+        },
+        {
+            "id": "3",
+            "title": "ECOTUR RUTA REINO ENCANTADO",
+            "description": "Haremos un viaje de cerca de una  hora hasta el destino. Flotaremos en la resurgencia, bajaremos por el <strong>r&iacute;o  Salobra</strong> (1.100 metros de flotaci&oacute;n) y recorreremos un sendero de  aproximadamente 550 metros.&nbsp;&nbsp;&nbsp;&nbsp;",
+            "highlights": [
+                {
+                    "title": "Resurgencia",
+                    "description": "La resurgencia es donde están los manantiales de un río. Es muy interesante bucear allí y ver varias burbujas de aire en el fondo, que dan lugar a toda la grandeza del río Salobra."
+                },
+                {
+                    "title": "Río Salobra",
+                    "description": "Aguas cristalinas en medio del bosque nativo, donde es posible observar manantiales, bancos de peces de las más variadas especies y divertidas familias de monos."
+                }
+            ],
+            "prefix": "REINO ENCANTADO - ",
+            "duration": "4 horas",
+            "level": "básico",
+            "pictures": [
+                "images/passeios/reino1.jpg",
+                "images/passeios/reino2.jpg",
+                "images/passeios/reino3.jpg"
+            ],
+            "slots": []
+        },
+        {
+            "id": "4",
+            "title": "ECOTUR CASCADA SERRA AZUL",
+            "description": "¿Qué tal una mayor dosis de aventura? Haremos un viaje de aproximadamente una hora y media hasta el destino. Recorreremos un sendero local con acceso por una escalera irregular de más de 450 peldaños. Después, flotaremos en la cascada de Serra Azul y regresaremos bajando en tirolesa.",
+            "highlights": [
+                {
+                    "title": "Cascada Serra Azul",
+                    "description": "Esta cascada tiene 46 metros de altura y su salto forma una piscina natural con aguas de un azul cristalino. Con gran visibilidad bajo el agua, proporciona una deliciosa inmersión."
+                },
+                {
+                    "title": "Tirolesa",
+                    "description": "¡Actividad ideal para los que les gusta la emoción! Con 50 metros de altura y 700 metros de descenso, este recorrido proporciona una sensación inolvidable en medio de la naturaleza."
+                }
+            ],
+            "prefix": "CACHOEIRA DA SERRA AZUL - ",
+            "duration": "5 horas",
+            "level": "intermedio",
+            "pictures": [
+                "images/passeios/serraAzul1.jpg",
+                "images/passeios/serraAzul2.jpg",
+                "images/passeios/serraAzul3.jpg"
+            ],
+            "slots": []
+        }
+    ]
+}

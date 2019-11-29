@@ -22,6 +22,9 @@
                 <li>
                     <a href="#!/profile">{{'Menu.Inscricao' | translate}}</a>
                 </li>
+                <!-- <li>
+                    <a href="#!/passeio">{{'Menu.Passeios' | translate}}</a>
+                </li> -->
                 <li>
                     <a href="" ng-click="logout()">
                         <span class=' glyphicon glyphicon-log-out'></span>{{'Menu.Sair' | translate}}</a>
@@ -32,13 +35,13 @@
     </div>
 </nav>
 
-<div class="page-header clear-filter purple-filter " style="position: relative; overflow: hidden; background-image: url('images/cover.752f60eb.jpg'); background-size: cover;
+<div class="page-header clear-filter purple-filter " style="position: relative; overflow: hidden; background-image: url('images/cover.83276b54.jpg'); background-size: cover;
 background-position: center bottom;">
     <div class="" style="" data-rellax-speed="-1" data-rellax-percentage="0">
         <div class="container">
             <div class="row">
-                <div class="col-sm-4 col-sm-offset-4">
-                    <img class="img-responsive page-header-logo" src="images/logo-campanha.afaaa767.jpg" alt="{{appTitle}}" />
+                <div class="col-sm-6 col-sm-offset-3">
+                    <img class="img-responsive page-header-logo" src="images/logo-campanha.194a1d70.png" alt="{{appTitle}}" />
                 </div>
             </div>
         </div>
@@ -62,13 +65,15 @@ background-position: center bottom;">
 <div class="footer">
     <div ng-include="'/views/footer.html'"></div>
     <div class="container">
-        <div class="language-select text-center" ng-controller="LanguageselectCtrl" ng-if="Utils.keys(grupo.multilingua.linguas).length > 1">
+        <div class="language-select text-center" ng-controller="LanguageselectCtrl"
+            ng-if="Utils.keys(grupo.multilingua.linguas).length > 1">
 
             <ul class="list-inline" style="margin-bottom: 0;">
                 <li><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></li>
                 <li ng-repeat="(key, value) in localesNamesWithKeys">
                     <small>
-                        <a href="" ng-click="changeLanguage(key)" ng-class="key === currentLocaleDisplayName ? 'text-underline' : ''">
+                        <a href="" ng-click="changeLanguage(key)"
+                            ng-class="key === currentLocaleDisplayName ? 'text-underline' : ''">
                             <span></span> {{value}}</a>
                     </small>
                 </li>

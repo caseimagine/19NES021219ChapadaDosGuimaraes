@@ -193,6 +193,7 @@
     "Menu":{
         "Inscricao": "Inscrição",
         "Sair": "Sair",
+        "Passeios": "Passeio",
         "Conteudo": "Conteúdo"
     },
 
@@ -218,6 +219,23 @@
     "Sucesso": {
         "Obrigado": "OBRIGADO!",
         "DadosSucesso": "Seus dados foram recebidos com sucesso!"
+    },
+
+    "Passeio": {
+        "title": "Nosso destino também é gigante pela própria natureza.",
+        "content": "<p class=\"text-center\">Preparamos passeios incríveis para nos energizarmos durante a <strong>Convenção NHScLATAM!</strong> </p>    <p class=\"text-center\">Como as vagas para cada passeio são limitadas, e para que você tenha uma melhor experiência, contamos com você para fazer a sua escolha o quanto antes. </p> <p class=\"text-center\"><strong>Descubra em detalhes quais serão os roteiros e selecione os passeios por sua ordem de preferência!</strong></p>",
+        "definedPreferenceOrder": "Preferência de passeio definida",
+        "warningUpdate": "Atenção: ao clicar em enviar a escolha não poderá mais ser alterada.",
+        "duration": "Duração total do roteiro",
+        "level": "Nível de dificuldade",
+        "departures": "Saídas disponíveis",
+        "choose": "Escolha o seu passeio",
+        "unavailable": "Não há mais passeios disponíveis",
+        "alreadyDefined": "Seu passeio já foi definido",
+        "esgotado": "Vagas esgotadas",
+        "notChosen": "Não escolhido",
+        "whatIsThePreference": "Qual a sua ordem de preferência para esse passeio?",
+        "alreadyChosen": "Sua escolha já foi finalizada! Saiba no evento qual será sua aventura!"
     },
     
     "LogoCampanha": "logo-campanha.3e00eb81.svg"

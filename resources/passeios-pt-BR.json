@@ -1,0 +1,109 @@
+{
+    "passeios": [
+        {
+            "id": "1",
+            "title": "CHAPADA FASCINANTE",
+            "description": "Faremos uma viagem de aproximadamente uma hora e meia  at&eacute; a regi&atilde;o que engloba o <strong><u>Parque Nacional da Chapada dos Guimar&atilde;es</u></strong>.  Este roteiro inclui o mirante da <strong><u>Cachoeira V&eacute;u de Noiva</u></strong>, trilha com  paradas para banho de cachoeiras e almo&ccedil;o regional no<strong> <u>Mirante do Morro  dos Ventos</u></strong>.<br><br>Previsão de retorno ao Malai: 17h00 ",
+            "highlights": [
+                {
+                    "title": "Parque Nacional Chapada dos Guimarães",
+                    "description": "Com a alma do cerrado brasileiro, este parque tem enormes formações rochosas de arenito, mirantes com vistas até a planície pantaneira e cachoeiras maravilhosas."
+                },
+                {
+                    "title": "Cachoeira Véu de Noiva",
+                    "description": "A cachoeira Véu de Noiva, formada pelo Rio Coxipó, possui 86 metros de queda livre emoldurada por paredões de arenito e é um dos pontos turísticos mais especiais do nosso país. "
+                },
+                {
+                    "title": "Mirante do Morro dos Ventos",
+                    "description": "Esta plataforma que avança para fora do paredão parece flutuar num espaço de mais de 150 metros de altura, de onde pode ser vista uma cachoeira no período das chuvas."
+                }
+            ],
+            "prefix": "CHAPADA FASCINANTE - ",
+            "duration": "8 horas",
+            "level": "intermediário",
+            "pictures": [
+                "images/passeios/chapada1.jpg",
+                "images/passeios/chapada2.jpg",
+                "images/passeios/chapada3.jpg",
+                "images/passeios/chapada4.jpg",
+                "images/passeios/chapada5.jpg",
+                "images/passeios/chapada6.jpg",
+                "images/passeios/chapada7.jpg"
+            ],
+            "slots": []
+        },
+        {
+            "id": "2",
+            "title": "ECOTUR ROTA AQUÁRIO ENCANTADO",
+            "description": "Faremos  uma viagem de aproximadamente uma hora at&eacute; o destino. L&aacute; ser&aacute; realizada a flutua&ccedil;&atilde;o  no <strong><u>Aqu&aacute;rio Encantado</u></strong>, a descida do <strong><u>Rio Salobra</u></strong> (900 metros de flutua&ccedil;&atilde;o) e uma trilha de aproximadamente 400 metros.",
+            "highlights": [
+                {
+                    "title": "Aquário Encantado",
+                    "description": "Este passeio proporciona a sensação de realmente estar dentro de um aquário. É feito em uma piscina natural com seis metros de profundidade de águas cristalinas que abriga arraias, dourados, piraputangas, piaus e outras espécies."
+                },
+                {
+                    "title": "Rio Salobra",
+                    "description": "Águas cristalinas em meio à mata nativa com possibilidade de observar nascentes, cardumes de peixes das mais variadas espécies, além de divertidas famílias de macacos."
+                }
+            ],
+            "prefix": "AQUARIO ENCANTADO - ",
+            "duration": "4 horas",
+            "level": "básico",
+            "pictures": [
+                "images/passeios/aquario1.jpg",
+                "images/passeios/aquario2.jpg",
+                "images/passeios/aquario3.jpg",
+                "images/passeios/aquario4.jpg"
+            ],
+            "slots": []
+        },
+        {
+            "id": "3",
+            "title": "ECOTUR ROTA REINO ENCANTADO",
+            "description": "Faremos  uma viagem de aproximadamente uma hora at&eacute; o destino. L&aacute; ser&aacute; realizada a flutua&ccedil;&atilde;o  na <strong><u>Ressurg&ecirc;ncia</u></strong>, a descida do <strong><u>Rio Salobra</u></strong> (1.100 metros de  flutua&ccedil;&atilde;o), e uma trilha de aproximadamente 550 metros.",
+            "highlights": [
+                {
+                    "title": "Ressurgência",
+                    "description": "Ressurgências são aonde estão as nascentes de um rio. É muito interessante mergulhar e ver várias bolhas de ar no fundo, que dão origem a toda a grandeza do Rio Salobra."
+                },
+                {
+                    "title": "Rio Salobra",
+                    "description": "Águas cristalinas em meio à mata nativa com possibilidade de observar nascentes, cardumes de peixes das mais variadas espécies, além de divertidas famílias de macacos."
+                }
+            ],
+            "prefix": "REINO ENCANTADO - ",
+            "duration": "4 horas",
+            "level": "básico",
+            "pictures": [
+                "images/passeios/reino1.jpg",
+                "images/passeios/reino2.jpg",
+                "images/passeios/reino3.jpg"
+            ],
+            "slots": []
+        },
+        {
+            "id": "4",
+            "title": "ECOTUR CACHOEIRA DA SERRA AZUL",
+            "description": "Que tal uma dose maior de aventura? Faremos  uma viagem de aproximadamente uma hora e meia at&eacute; este destino. L&aacute; ser&aacute; realizada a trilha  local com acesso por uma escadaria irregular com mais de 450 degraus.  Posteriormente, ser&aacute; feita a flutua&ccedil;&atilde;o na <strong><u>Cachoeira da Serra Azul</u></strong> e o retorno com descida em <strong><u>tirolesa</u></strong>. ",
+            "highlights": [
+                {
+                    "title": "Cachoeira da Serra Azul",
+                    "description": "Esta cachoeira tem 46 metros de altura e sua queda forma uma piscina natural com águas cristalinas de tom azulado. Com ótima visibilidade embaixo d’água, proporciona um mergulho delicioso."
+                },
+                {
+                    "title": "Tirolesa",
+                    "description": "Atividade ideal para quem gosta de emoção! Com 50 metros de altura e 700 metros de descida, esse passeio proporciona uma sensação inesquecível em meio à natureza."
+                }
+            ],
+            "prefix": "CACHOEIRA DA SERRA AZUL - ",
+            "duration": "5 horas",
+            "level": "intermediário",
+            "pictures": [
+                "images/passeios/serraAzul1.jpg",
+                "images/passeios/serraAzul2.jpg",
+                "images/passeios/serraAzul3.jpg"
+            ],
+            "slots": []
+        }
+    ]
+}

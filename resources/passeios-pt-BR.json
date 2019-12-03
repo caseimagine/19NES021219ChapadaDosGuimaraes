@@ -22,13 +22,16 @@
             "duration": "8 horas",
             "level": "intermediário",
             "pictures": [
+                "images/passeios/chapada8.jpg",
+                "images/passeios/chapada9.jpg",
+                "images/passeios/chapada10.jpg",
+                "images/passeios/chapada11.jpg",
+                "images/passeios/chapada12.jpg",
+                "images/passeios/chapada13.jpg",
                 "images/passeios/chapada1.jpg",
-                "images/passeios/chapada2.jpg",
-                "images/passeios/chapada3.jpg",
                 "images/passeios/chapada4.jpg",
                 "images/passeios/chapada5.jpg",
-                "images/passeios/chapada6.jpg",
-                "images/passeios/chapada7.jpg"
+                "images/passeios/chapada6.jpg"
             ],
             "slots": []
         },
@@ -52,7 +55,6 @@
             "pictures": [
                 "images/passeios/aquario1.jpg",
                 "images/passeios/aquario2.jpg",
-                "images/passeios/aquario3.jpg",
                 "images/passeios/aquario4.jpg"
             ],
             "slots": []
@@ -75,6 +77,8 @@
             "duration": "4 horas",
             "level": "básico",
             "pictures": [
+                "images/passeios/reino4.jpg",
+                "images/passeios/reino5.jpg",
                 "images/passeios/reino1.jpg",
                 "images/passeios/reino2.jpg",
                 "images/passeios/reino3.jpg"
@@ -99,9 +103,10 @@
             "duration": "5 horas",
             "level": "intermediário",
             "pictures": [
-                "images/passeios/serraAzul1.jpg",
-                "images/passeios/serraAzul2.jpg",
-                "images/passeios/serraAzul3.jpg"
+                "images/passeios/serraAzul4.jpg",
+                "images/passeios/serraAzul5.jpg",
+                "images/passeios/serraAzul6.jpg",
+                "images/passeios/serraAzul1.jpg"
             ],
             "slots": []
         }

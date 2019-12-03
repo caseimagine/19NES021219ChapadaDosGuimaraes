@@ -223,7 +223,7 @@
 
     "Passeio": {
         "title": "Nosso destino também é gigante pela própria natureza.",
-        "content": "<p class=\"text-center\">Preparamos passeios incríveis para nos energizarmos durante a <strong>Convenção NHSc LATAM!</strong> </p>    <p class=\"text-center\">Como as vagas para cada passeio são limitadas, e para que você tenha uma melhor experiência, contamos com você para fazer a sua escolha o quanto antes. </p> <p class=\"text-center\"><strong>Descubra em detalhes quais serão os roteiros e selecione os passeios por sua ordem de preferência!</strong></p>",
+        "content": "<p class=\"text-center\">Em meio às belezas naturais da Chapada dos Guimarães, queremos que você tenha um momento de energização para os desafios do próximo ano! Selecionamos algumas opções de passeios incríveis, que possuem vagas limitadas.</p>    <p class=\"text-center\">Então, para que você tenha uma melhor experiência, veja cada roteiro em detalhes e selecione os passeios por ordem de preferência, de 1 a 4 – sendo 1 para o mais desejado e 4 para o menos desejado.</p> <p class=\"text-center\">Ao final, será apenas um passeio (que acontecerá no dia 12/12) por pessoa. A agência informará no momento do check-in o passeio do qual você participará e o horário de saída.</p>",
         "definedPreferenceOrder": "Preferência de passeio definida",
         "warningUpdate": "Atenção: ao clicar em enviar a escolha não poderá mais ser alterada.",
         "duration": "Duração total do roteiro",

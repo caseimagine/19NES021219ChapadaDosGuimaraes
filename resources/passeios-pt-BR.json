@@ -25,7 +25,6 @@
                 "images/passeios/chapada8.jpg",
                 "images/passeios/chapada9.jpg",
                 "images/passeios/chapada10.jpg",
-                "images/passeios/chapada11.jpg",
                 "images/passeios/chapada12.jpg",
                 "images/passeios/chapada13.jpg",
                 "images/passeios/chapada1.jpg",
@@ -53,6 +52,10 @@
             "duration": "4 horas",
             "level": "básico",
             "pictures": [
+                "images/passeios/aquario5.jpg",
+                "images/passeios/aquario6.jpg",
+                "images/passeios/aquario7.jpg",
+                "images/passeios/aquario8.jpg",
                 "images/passeios/aquario1.jpg",
                 "images/passeios/aquario2.jpg",
                 "images/passeios/aquario4.jpg"

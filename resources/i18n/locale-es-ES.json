@@ -220,7 +220,7 @@
 
     "Passeio": {
         "title": "Nuestro destino también es gigante por propia naturaleza",
-        "content": "<p>!Hemos preparado atracciones  incre&iacute;bles para energizar la Convenci&oacute;n NHSc LATAM! <br /> Teniendo en cuenta que hay plazas limitadas  para cada recorrido y para que usted tenga la mejor experiencia, le sugerimos  que elija uno lo antes posible.</p><p><strong>&iexcl;Conozca en detalle los recorridos y  elija su favorito!</strong></p>",
+        "content": "<p>En medio de la belleza natural de la Chapada dos Guimarães, ¡queremos que usted disfrute de un momento de energización para hacer frente a los desafíos del próximo año! Hemos seleccionado algunas opciones de paseos increíbles, cuyas plazas son limitadas.  <br /> Por ello, para que usted tenga una mejor experiencia, verifique cada recorrido en detalle y seleccione los paseos por orden de su preferencia, de 1 a 4, siendo 1 el más deseado y 4 el menos deseado.</p><p>Al final, será solo un paseo por persona (que ocurrirá el 12/12). La agencia le informará en el momento del check-in cuál recorrido usted hará y la hora de salida.</p>",
         "definedPreferenceOrder": "Conjunto de preferencias de recorridos",
         "warningUpdate": "Tenga en cuenta: una vez que se elige el recorrido, no se permitirá realizar cambios",
         "duration": "Duración total del recorrido",
